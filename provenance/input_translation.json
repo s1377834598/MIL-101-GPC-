@@ -1,0 +1,16 @@
+{
+  "source_identifier": "6.xlsx",
+  "source_sha256": "721f601322f6ed7c87c4d821e242aeeaf4b9d0b6cf4b1b781d3b3ac8e735b71e",
+  "distributed_file": "data/input_6_english.xlsx",
+  "distributed_sha256": "36682b01ad26d6824c054e480c92c13f40ff58765c5a47c67a2938558cec6230",
+  "changes": "English column headers and a fresh workbook container; numeric values and row order unchanged. Localized theme font names translated to English family names.",
+  "original_header_meanings": [
+    "record number",
+    "temperature",
+    "time",
+    "TEM score"
+  ],
+  "rows_including_repeated_condition": 25,
+  "unique_conditions": 24,
+  "numeric_equality_verified": true
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "6.xlsx",
+  "method": "LogLoss_CV",
+  "stage": "before",
+  "models": 50,
+  "source_model_directory": "outputs_GPC_LogLoss_unified_20261106/dataset_6/before",
+  "manuscript_figure": "25_Panel_labels_8pt/Fig-3-4_Panel_labels_8pt.ai",
+  "classifier_panel": "c",
+  "scope": "GPC training, evaluation and probability map only"
+}

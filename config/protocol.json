@@ -1,0 +1,59 @@
+{
+  "dataset": "6.xlsx",
+  "method": "LogLoss_CV",
+  "ensemble_size": 50,
+  "features": [
+    "temperature",
+    "time"
+  ],
+  "units": [
+    "degree_Celsius",
+    "hour"
+  ],
+  "class_1": "No such particles observed in the evaluated post-reduction TEM fields",
+  "class_0": "Obvious Pd particles exceeding 5 nm observed in the evaluated post-reduction TEM fields",
+  "probability_threshold": 0.5,
+  "outer_train_size": 18,
+  "outer_validation_size": 6,
+  "inner_folds": 3,
+  "trials": 60,
+  "sampler": "TPESampler",
+  "startup_trials": 15,
+  "kernels": [
+    "RBF",
+    "Matern1.5",
+    "Matern2.5"
+  ],
+  "variance_bounds": [
+    0.1,
+    100
+  ],
+  "standardized_lengthscale_bounds": [
+    0.05,
+    10
+  ],
+  "classification": "Laplace GPC; optimizer=None; max_iter_predict=200; random_state=42",
+  "ensemble": "Arithmetic mean of probabilities from all 50 saved outer-training models",
+  "training_temperature_range_C": [
+    25,
+    170
+  ],
+  "training_time_range_h": [
+    0,
+    12
+  ],
+  "figure_time_range_h": [
+    0,
+    24
+  ],
+  "stage": "before",
+  "target_figure": "25_Panel_labels_8pt/Fig-3-4_Panel_labels_8pt.ai",
+  "unique_records": 24,
+  "experimental_records": 16,
+  "interpolated_0h_records": 8,
+  "label_source_note": "Carried from the unified model record; not an independent raw-TEM audit",
+  "six_point_evaluation": "Retrospective, not used in before-stage fitting",
+  "TEM_large_particle_threshold_nm": 5,
+  "threshold_comparison": "strictly greater than",
+  "label_definition_source": "SI S7.3; documentary alignment, not new TEM image re-labeling"
+}

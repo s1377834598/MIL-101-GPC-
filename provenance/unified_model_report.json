@@ -1,0 +1,52 @@
+{
+  "tag": "6",
+  "stage": "before",
+  "records": 24,
+  "original_records": 24,
+  "experimental_records": 16,
+  "interpolation_records": 8,
+  "members": 50,
+  "train_rows_per_member": 18,
+  "validation_rows_per_member": 6,
+  "validation_record_source": "mixed experimental and interpolation labels; same saved splits as fig3-1 session",
+  "holdout_metrics": {
+    "accuracy": {
+      "mean": 0.86,
+      "sd": 0.14427864197660112
+    },
+    "macro_F1": {
+      "mean": 0.8532857142857142,
+      "sd": 0.15249414224166208
+    },
+    "recall_good": {
+      "mean": 0.8866666666666666,
+      "sd": 0.1731396091685509
+    },
+    "recall_bad": {
+      "mean": 0.8333333333333333,
+      "sd": 0.23570226039551584
+    },
+    "ROC_AUC": {
+      "mean": 0.9533333333333333,
+      "sd": 0.0954758935988734
+    },
+    "Brier": {
+      "mean": 0.10786031461978488,
+      "sd": 0.06610302873852059
+    },
+    "log_loss": {
+      "mean": 0.36598793933993035,
+      "sd": 0.16108180481725723
+    }
+  },
+  "six_agreement": 6,
+  "P120_10_direct": 0.8951074164949767,
+  "P120_10_grid": 0.8950916374377886,
+  "probability_range": [
+    0.13030389828151098,
+    0.8966983733646885
+  ],
+  "SD_ddof": 1,
+  "reused_before_models": true,
+  "retuned_augmented_models": false
+}

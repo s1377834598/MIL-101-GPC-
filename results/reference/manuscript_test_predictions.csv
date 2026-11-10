@@ -1,0 +1,7 @@
+point_id,temperature_C,time_h,probability_class1_ensemble,probability_display_grid,predicted_class,observed_class,evaluation,source_point_id
+T1,120.0,3.0,0.4447641268971923,0.4447395953907715,0,0,retrospective not used in fit,T2
+T2,140.0,4.0,0.4574156027360307,0.4574106029951953,0,0,retrospective not used in fit,T3
+T3,150.0,6.0,0.4549619958323543,0.4549669801038583,0,0,retrospective not used in fit,T4
+T4,100.0,18.0,0.7163132133980707,0.716305567472499,1,1,retrospective not used in fit,T6
+T5,155.0,12.0,0.5785287112890063,0.5785230574530336,1,1,retrospective not used in fit,T7
+T6,160.0,18.0,0.5737512931987425,0.5737524209423732,1,1,retrospective not used in fit,T8

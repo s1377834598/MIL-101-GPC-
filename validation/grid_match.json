@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "dataset": "6.xlsx",
+  "stage": "before",
+  "grid_points": 58081,
+  "max_probability_error": 6.661338147750939e-16
+}

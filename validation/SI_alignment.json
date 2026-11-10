@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "Primary dataset, before adding T1-T6 only",
+  "reference_section": "S7.3",
+  "reference_tables": [
+    14,
+    15,
+    16
+  ],
+  "reviewed_sources": [
+    {
+      "identifier": "Full SI, instrument and main-text alignment, 2026-11-09",
+      "sha256": "590a338d597e2e8a90a2976093582a8280737b0e1539eba8075236b9be4609a0"
+    },
+    {
+      "identifier": "User-edited Chinese Section 7, instrument and main-text alignment, 2026-11-09",
+      "sha256": "1d21555e0424ad72db91675ed135d0c24e96b099d835cc28f59076a4cf43b35c"
+    }
+  ],
+  "related_SI_conversation_reviewed": true,
+  "unique_conditions": 24,
+  "experimental_records": 16,
+  "interpolated_0h_records": 8,
+  "members": 50,
+  "training_per_member": 18,
+  "validation_per_member": 6,
+  "inner_folds": 3,
+  "trials": 60,
+  "outer_seed_range": [
+    202601,
+    202650
+  ],
+  "inner_seed_range": [
+    203601,
+    203650
+  ],
+  "seven_validation_metrics_match_SI_rounding": true,
+  "six_test_probabilities_match_SI_rounding": true,
+  "documentation_correction": "TEM operational labeling criterion aligned with SI: obvious post-reduction Pd particles exceeding 5 nm.",
+  "outside_package": [
+    "Models after adding T1-T6",
+    "Dataset 6.1 sensitivity analysis",
+    "Other characterization analyses"
+  ],
+  "note": "SI source documents are being edited in another conversation; this audit refers to the recorded file hashes."
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "models": 50,
+  "unique_training_conditions": 24,
+  "outer_splits": 50,
+  "inner_folds": 150,
+  "model_refit_max_probability_error": 0.0,
+  "grid_sample_points": 169,
+  "grid_max_probability_error": 4.440892098500626e-16,
+  "six_point_max_probability_error": 0.0,
+  "six_point_metrics": {
+    "accuracy": 1.0,
+    "macro_F1": 1.0,
+    "Brier": 0.175639796667121,
+    "log_loss": 0.5405229622352651,
+    "ROC_AUC": 1.0
+  },
+  "probability_120C_10h": 0.8951074164949767,
+  "package_checksums_verified": 85,
+  "limitations": [
+    "Checks establish numerical reproducibility, not independent experimental validity.",
+    "Full 50-run hyperparameter search was not rerun by this validation script.",
+    "Six conditions match their labels; method selection independence is not established."
+  ]
+}

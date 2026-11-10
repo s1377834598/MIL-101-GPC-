@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "run": 1,
+  "trials": 60,
+  "all_trial_parameters_match": true,
+  "maximum_log_loss_difference": 0.0,
+  "note": "One full search repeated; all 50 selected-parameter models were separately reconstructed."
+}

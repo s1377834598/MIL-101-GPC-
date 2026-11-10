@@ -1,0 +1,7 @@
+Upload the contents of this directory to a GitHub repository.
+This English-only package contains the primary dataset-6 before-addition GPC: data, fixed splits, code, 50 fitted models, reference predictions and figures.
+The numeric contents of 6.xlsx are preserved in data/input_6_english.xlsx and data/raw_training.csv with English headers. The original workbook hash is retained for provenance.
+No phenomenological equations, fitting scripts or size plots are included.
+Install requirements.txt, then run src/predict.py, src/plot_probability.py, src/validate.py and src/verify_grid.py.
+Read SI_ALIGNMENT.md for exactly which SI results are reproduced.
+Choose repository visibility, license, authorship and release identifier before publication. This package has not been uploaded.

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "CJK_characters_found": false,
+  "file_names_checked": true,
+  "text_files": 39,
+  "workbooks": 1,
+  "models": 50,
+  "pdfs": 1,
+  "scope": "Text, decoded JSON, workbook XML text/attributes including themes, PDF text, and model string attributes"
+}

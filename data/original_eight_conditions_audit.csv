@@ -1,0 +1,9 @@
+original_test_id,temperature,time,target,overlaps_training,in_manuscript_figure
+T1,25,14,0,False,False
+T2,120,3,0,False,True
+T3,140,4,0,False,True
+T4,150,6,0,False,True
+T5,100,10,1,True,False
+T6,100,18,1,False,True
+T7,155,12,1,False,True
+T8,160,18,1,False,True
